@@ -1,4 +1,4 @@
-# roughbp
+# handwrittenbp
 
 This is a rough and straight-forward hand-written backward propagation with 2 hidden layers. The whole architecture is 784 - 25 - 20 - 1. We used MNIST data to distinguish between 0 and 1, so the output is binary. We used logistic loss function. For each layer, we used sigmoid as the activation function. We initialized the weights with standard normal distribution. We used the "batch" thing to make learing more efficient. 
 
